@@ -15,11 +15,10 @@
             <h2>2023</h2>
             <div class="dropdown">
                 <div class="photo-grid">
-                    <!-- Note: .jpeg extension, not .jpg -->
-                    <img src="images/2023/1.jpeg" alt="Our first meeting">
-                    <img src="images/2023/2.jpeg" alt="First date">
-                    <img src="images/2023/3.jpeg" alt="Special moment">
-                    <img src="images/2023/4.jpeg" alt="Happy times">
+                    <img src="images/2023_1.jpeg" alt="Our first meeting">
+                    <img src="images/2023_2.jpeg" alt="First date">
+                    <img src="images/2023_3.jpeg" alt="Special moment">
+                    <img src="images/2023_5.jpeg" alt="Happy times">
                 </div>
             </div>
         </div>
@@ -29,10 +28,10 @@
             <h2>2024</h2>
             <div class="dropdown">
                 <div class="photo-grid">
-                    <img src="images/2024/1.jpeg" alt="Valentine's Day 2024">
-                    <img src="images/2024/2.jpeg" alt="Birthday celebration">
-                    <img src="images/2024/3.jpeg" alt="Vacation time">
-                    <img src="images/2024/4.jpeg" alt="Everyday love">
+                    <img src="images/2024_1.jpeg" alt="Valentine's Day 2024">
+                    <img src="images/2024_2.jpeg" alt="Birthday celebration">
+                    <img src="images/2024_3.jpeg" alt="Vacation time">
+                    <img src="images/2024_5.jpeg" alt="Everyday love">
                 </div>
             </div>
         </div>
@@ -42,15 +41,27 @@
             <h2>2025</h2>
             <div class="dropdown">
                 <div class="photo-grid">
-                    <img src="images/2025/1.jpeg" alt="Growing together">
-                    <img src="images/2025/2.jpeg" alt="New adventures">
-                    <img src="images/2025/3.jpeg" alt="Special celebrations">
-                    <img src="images/2025/4.jpeg" alt="Our love story">
+                    <img src="images/2025_1.jpeg" alt="Growing together">
+                    <img src="images/2025_2.jpeg" alt="New adventures">
+                    <img src="images/2025_3.jpeg" alt="Special celebrations">
+                    <img src="images/2025_5.jpeg" alt="Our love story">
                 </div>
             </div>
         </div>
         
-       
+        <!-- 2026 -->
+        <div class="year-box">
+            <h2>2026</h2>
+            <div class="dropdown">
+                <div class="photo-grid">
+                    <img src="images/2026_1.jpeg" alt="Future dreams">
+                    <img src="images/2026_2.jpeg" alt="More adventures">
+                    <img src="images/2026_3.jpeg" alt="Endless love">
+                    <img src="images/2026_5.jpeg" alt="Forever together">
+                </div>
+            </div>
+        </div>
+    </div>
     
     <div class="question">
         <h2>Now I Have A Question For You</h2>
@@ -61,6 +72,23 @@
             <button id="yesBtn">Yes Love</button>
             <button id="noBtn">No</button>
         </div>
+    </div>
+    
+    <!-- Overlay for blur effect -->
+    <div class="overlay"></div>
+    
+    <!-- Background Music -->
+    <audio id="backgroundMusic" loop>
+        <source src="https://assets.mixkit.co/music/preview/mixkit-happy-dance-464.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <!-- Music Controls -->
+    <div class="music-controls">
+        <button id="playBtn" title="Play Music">🎵 Play</button>
+        <button id="pauseBtn" title="Pause Music">⏸️ Pause</button>
+        <button id="volumeUp" title="Volume Up">🔊</button>
+        <button id="volumeDown" title="Volume Down">🔉</button>
     </div>
     
     <script src="script.js"></script>
